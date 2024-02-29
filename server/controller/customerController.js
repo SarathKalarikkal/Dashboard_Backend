@@ -180,7 +180,7 @@ exports.searchCustomer = async (req, res)=>{
             { lastName: { $regex: new RegExp(searchTerm, "i") }},
             ] })
             
-            res.render('/search',{
+            res.render('search',{
                 locals,
                 customers
             })

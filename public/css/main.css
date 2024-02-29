@@ -1,0 +1,56 @@
+.pagination.pagination-dark .page-item .page-link {
+    color: #fff; 
+    background-color: #343a40; 
+}
+
+.pagination.pagination-dark .page-item.active .page-link {
+    background-color: #007bff; 
+    border-color: #007bff; 
+}
+
+#sidebarMenu{
+    background-color: #2f353b;
+    height: 100vh;
+}
+
+
+.form-control {
+    background-color: #252a30; 
+    color: #fff; 
+}
+
+.form-control::placeholder {
+    color: #c7cdd3
+}
+
+.form-control:focus {
+    background-color: #23292e; 
+}
+
+.btn-primary {
+    background-color: #007bff; 
+    border-color: #007bff; 
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+}
+
+.btn-primary:focus {
+    background-color: #0056b3; 
+    border-color: #0056b3;
+}
+
+.modal-dark{
+    background-color: #252a30;
+    color: white;
+}
+.modal-dark .btn-light{
+    color: white;
+}
+
+.list-group-item.dark{
+    background-color: #2f353b;
+    color: white;
+}
